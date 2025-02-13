@@ -10,17 +10,24 @@
             text-align: center;
             font-family: Arial, sans-serif;
             color: white;
+            margin: 0;
+            padding: 20px;
         }
         #map {
             height: 400px;
             width: 100%;
             margin-top: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         }
         #pac-input {
             margin-top: 10px;
             width: 300px;
-            padding: 5px;
+            padding: 10px;
             font-size: 14px;
+            border: none;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
         #location-btn {
             margin-top: 10px;
@@ -31,6 +38,7 @@
             color: #4666FF;
             cursor: pointer;
             border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
         #location-btn:hover {
             background-color: #ddd;
@@ -38,6 +46,7 @@
     </style>
 </head>
 <body>
+    <h1>ICCT COLLEGES G-MAPS.PRO</h1>
     <input id="pac-input" type="text" placeholder="Search for a place">
     <button id="location-btn">Find My Location</button>
     <div id="map"></div>
