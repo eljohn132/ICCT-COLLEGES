@@ -1,13 +1,73 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #4666FF; /* Background color */
+    color: white; /* Text color */
+    text-align: center; /* Center-align all content */
+}
+
 /* Set the size of the map container */
 #map {
     height: 500px; /* Adjust height as needed */
-    width: 100%;  /* Full width */
+    width: 100%; /* Full width */
+    margin-top: 20px; /* Add some spacing above the map */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
 }
 
-/* Style for the locate button and checkbox */
-button, label {
+/* Style for the locate button */
+button {
     margin: 10px;
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
+    background-color: white; /* Button background color */
+    color: #4666FF; /* Button text color */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+/* Hover effect for the button */
+button:hover {
+    background-color: #ddd; /* Light gray background on hover */
+}
+
+/* Style for labels (if used with checkboxes or other inputs) */
+label {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block; /* Ensure labels are inline with other elements */
+}
+
+/* Style for the search input */
+#pac-input {
+    margin-top: 10px;
+    width: 300px; /* Fixed width for the search box */
+    padding: 10px; /* Padding for better appearance */
+    font-size: 14px; /* Font size */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 600px) {
+    #map {
+        height: 300px; /* Smaller height for mobile devices */
+    }
+
+    #pac-input {
+        width: 100%; /* Full width for search box on small screens */
+    }
+
+    button, label {
+        width: 100%; /* Full width for buttons and labels on small screens */
+        margin: 5px 0; /* Adjust margin for better spacing */
+    }
 }
