@@ -1,0 +1,13 @@
+/* Set the size of the map container */
+#map {
+    height: 500px; /* Adjust height as needed */
+    width: 100%;  /* Full width */
+}
+
+/* Style for the locate button and checkbox */
+button, label {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
