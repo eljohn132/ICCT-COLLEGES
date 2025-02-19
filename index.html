@@ -53,7 +53,7 @@
 
     <!-- Load the Google Maps JavaScript API with the Places library -->
     <script async defer
-        src="https://maps.gomaps.pro/maps/api/js?key=AlzaSyr99FDEKoIwbkyW3baPsB6KwDGgYR0W1iQ&libraries=geometry,places&callback=initMap">
+        src="https://maps.gomaps.pro/maps/api/js?key=Your-Api-KEY-From-Gomaps&libraries=geometry,places&callback=initMap">
     </script>
 
     <script>
@@ -61,10 +61,10 @@
         let autocomplete;
 
         function initMap() {
-            // Create the map centered on Kalye Bente Nueve, Philippines
+            // Create the map centered on a default location
             map = new google.maps.Map(document.getElementById('map'), {
-                center: { lat: 14.5995, lng: 120.9842 }, // Default to Kalye Bente Nueve, Philippines
-                zoom: 15 // Adjusted zoom level for a local area
+                center: { lat: -33.8688, lng: 151.2195 }, // Default to Sydney, Australia
+                zoom: 13
             });
 
             const input = document.getElementById('pac-input');
@@ -121,3 +121,4 @@
     </script>
 </body>
 </html>
+
