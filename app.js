@@ -7,7 +7,7 @@
         "defaultZoom": 13 // Default zoom level
     },
     "apiConfig": {
-        "googleMapsApiKey": "AlzaSynfhKupET1aB_1XFAmyYEhorIItN_i1oSa", // Replace with your actual Google Maps API key
+        "googleMapsApiKey": "AlzaSyr99FDEKoIwbkyW3baPsB6KwDGgYR0W1iQ", // Replace with your actual Google Maps API key
         "libraries": ["geometry", "places"] // Google Maps libraries to load
     },
     "searchBox": {
