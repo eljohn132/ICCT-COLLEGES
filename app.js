@@ -1,10 +1,9 @@
-{
-    "mapConfig": {
+"mapConfig": {
         "defaultCenter": {
-            "lat": 14.5995, // Default center coordinates (Kalye Bente Nueve, Philippines)
-            "lng": 120.9842
+            "lat": -33.8688, // Default center coordinates (Sydney, Australia)
+            "lng": 151.2195
         },
-        "defaultZoom": 15 // Adjusted zoom level for a local area
+        "defaultZoom": 13 // Default zoom level
     },
     "apiConfig": {
         "googleMapsApiKey": "AlzaSyr99FDEKoIwbkyW3baPsB6KwDGgYR0W1iQ", // Replace with your actual Google Maps API key
