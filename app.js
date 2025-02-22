@@ -1,7 +1,6 @@
 "mapConfig": {
         "defaultCenter": {
-            "lat": -14.61776, // Default center coordinates (Cainta,Icct colleges
-                )
+            "lat": -14.61776, // Default center coordinates (Cainta,Icct colleges)
             "lng": 121.10 257
         },
         "defaultZoom": 13 // Default zoom level
