@@ -1,7 +1,7 @@
 "mapConfig": {
         "defaultCenter": {
-            "lat": -33.8688, // Default center coordinates (Sydney, Australia)
-            "lng": 151.2195
+            "lat": -14.61776, // Default center coordinates (Sydney, Australia)
+            "lng": 121.10 257
         },
         "defaultZoom": 13 // Default zoom level
     },
